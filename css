@@ -1,0 +1,29 @@
+body {
+	background-color: lightseagreen;
+}
+
+
+.button {
+	margin-top: 20px;
+	padding: 5px;
+	background-color: brown;
+	color: aliceblue;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.form-group {
+	padding: 5px;
+	text-align: center;
+}
+
+.centered {
+	text-align: center;
+}
+
+
+#content {
+	color: rgb(139, 34, 34);
+	font-size: xx-large;
+	font-weight: bold;
+}
