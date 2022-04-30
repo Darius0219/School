@@ -1,0 +1,37 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+		<link rel="stylesheet" href="css/site.css" />
+
+		<title>Mail Subscription Service</title>
+	</head>
+
+	<body>
+		<div class="centered" id="content"></div>
+
+		<div class="centered">
+			<h1>Mail Subscription Service</h1>
+			<p>Please enter your name and email for up to the date content and subscribe our monthly newsletter.</p>
+		</div>
+		<form id="subscriptionForm">
+			<div class="form-group">
+				<label for="name">Name: </label>
+				<input type="text" id="name" placeholder="Enter your name..." />
+			</div>
+			<div class="form-group">
+				<label for="email">Email: </label>
+				<input type="text" id="email" placeholder="john.citizen@examplemail.com" />
+			</div>
+			<div class="form-group">
+				<input class="button" type="submit" value="Submit" onclick="handleEmailSubscription()" />
+			</div>
+		</form>
+	</body>
+
+	<!-- Link to the external JavaScript file -->
+	<script src="js/site.js"></script>
+</html>
